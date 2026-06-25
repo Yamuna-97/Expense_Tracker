@@ -11,7 +11,6 @@ const dashboardRoutes = require("./routes/dashboardRoutes");
 const app = express();
 
 connectDB();
-const cors = require("cors");
 
 app.use(
   cors({
