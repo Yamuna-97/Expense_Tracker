@@ -1,11 +1,12 @@
 # 💰 Expense Tracker
 
 <p align="center">
+  <a href="https://expense-tracker-black-theta-23.vercel.app/">
+    <img src="https://img.shields.io/badge/Live-Website-success?style=for-the-badge&logo=vercel" />
+  </a>
   <img src="https://img.shields.io/badge/MERN-Stack-blue?style=for-the-badge&logo=mongodb" />
-  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Live-brightgreen?style=for-the-badge" />
 </p>
-
 <p align="center">
   A Full Stack Expense Tracker built with the MERN Stack that helps users manage income, expenses, and financial records efficiently.
 </p>
