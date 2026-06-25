@@ -11,10 +11,19 @@ const dashboardRoutes = require("./routes/dashboardRoutes");
 const app = express();
 
 connectDB();
-app.use(cors({
-  origin: true,
-  credentials: true
-}));
+const cors = require("cors");
+
+app.use(
+  cors({
+    origin: [
+      "http://localhost:5173",
+      "https://expense-tracker-black-theta-23.vercel.app",
+    ],
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization"],
+    credentials: true,
+  })
+);
 
 
 console.log("CORS WORKING");
