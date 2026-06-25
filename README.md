@@ -13,21 +13,6 @@
 
 ---
 
-## 🚀 Live Demo
-
-🌐 **Frontend:** https://expense-tracker-frontend-zeta-sand.vercel.app
-
----
-
-## 📸 Project Preview
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Dashboard-Analytics-blue?style=flat-square" />
-  <img src="https://img.shields.io/badge/Authentication-JWT-green?style=flat-square" />
-  <img src="https://img.shields.io/badge/CRUD-Operations-orange?style=flat-square" />
-</p>
-
----
 
 ## ✨ Features
 
