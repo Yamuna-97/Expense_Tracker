@@ -11,8 +11,13 @@ const dashboardRoutes = require("./routes/dashboardRoutes");
 const app = express();
 
 connectDB();
-app.use(cors());
+app.use(cors({
+  origin: true,
+  credentials: true
+}));
 
+
+console.log("CORS WORKING");
 app.use(express.json());
 app.use(express.urlencoded({ extended: true })); 
 
