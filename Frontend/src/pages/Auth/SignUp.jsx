@@ -49,10 +49,13 @@ const SignUp = () => {
 
     // "https://expensetracker-backend-r3l8.onrender.com/api/v1/auth/register"
 
-    const response = await fetch("http://localhost:8000/api/v1/auth/register", {
-      method: "POST",
-      body: formData,
-    });
+   const response = await fetch(
+  `${import.meta.env.VITE_API_URL}/api/v1/auth/register`,
+  {
+    method: "POST",
+    body: formData,
+  }
+);
 
     const data = await response.json();
 
