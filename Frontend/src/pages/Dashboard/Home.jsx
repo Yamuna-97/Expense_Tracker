@@ -15,9 +15,8 @@ import Last30DaysExpenses from '../../components/Dashboard/Last30DaysExpenses';
 import RecentIncomeWithChart from '../../components/Dashboard/RecentIncomeWithChart';
 import RecentIncome from '../../components/Dashboard/RecentIncome';
 
-
 const Home = () => {
-  useUserAuth(); // ✅ Hook callx`
+  useUserAuth(); 
 
   const navigate = useNavigate();
   const [dashboardData, setDashboardData] = useState(null);
@@ -102,6 +101,4 @@ const Home = () => {
     </DashboardLayout>
   );
 };
-
 export default Home;
-
