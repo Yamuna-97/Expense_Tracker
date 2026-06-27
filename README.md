@@ -11,8 +11,6 @@
   A Full Stack Expense Tracker built with the MERN Stack that helps users manage income, expenses, and financial records efficiently.
 </p>
 
----
-
 
 ## ✨ Features
 
